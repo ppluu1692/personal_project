@@ -1,0 +1,477 @@
+1 200 200
+2 100 200
+3 50 150
+4 50 200
+5 20 100
+6 20 120
+7 20 140
+8 20 160
+9 20 180
+10 20 200
+11 10 110
+12 10 120
+13 10 130
+14 10 140
+15 10 150
+16 10 160
+17 10 170
+18 10 180
+19 10 190
+20 10 200
+21 5 105
+22 5 110
+23 5 115
+24 5 120
+25 5 125
+26 5 130
+27 5 135
+28 5 140
+29 5 145
+30 5 150
+31 5 155
+32 5 160
+33 5 165
+34 5 170
+35 5 175
+36 5 180
+37 5 185
+38 5 190
+39 5 195
+40 5 200
+41 2 82
+42 2 84
+43 2 86
+44 2 88
+45 2 90
+46 2 92
+47 2 94
+48 2 96
+49 2 98
+50 2 100
+51 2 102
+52 2 104
+53 2 106
+54 2 108
+55 2 110
+56 2 112
+57 2 114
+58 2 116
+59 2 118
+60 2 120
+61 2 122
+62 2 124
+63 2 126
+64 2 128
+65 2 130
+66 2 132
+67 2 134
+68 2 136
+69 2 138
+70 2 140
+71 2 142
+72 2 144
+73 2 146
+74 2 148
+75 2 150
+76 2 152
+77 2 154
+78 2 156
+79 2 158
+80 2 160
+81 2 162
+82 2 164
+83 2 166
+84 2 168
+85 2 170
+86 2 172
+87 2 174
+88 2 176
+89 2 178
+90 2 180
+91 2 182
+92 2 184
+93 2 186
+94 2 188
+95 2 190
+96 2 192
+
+[491, 192] (496, 191) (5, -1)
+[491, 192] (500, 190) (9, -2)
+[491, 192] (506, 188) (15, -4)
+[491, 192] (510, 187) (19, -5)
+[491, 192] (514, 186) (23, -6)
+[491, 192] (519, 186) (28, -6)
+[491, 192] (526, 186) (35, -6)
+[491, 192] (534, 188) (43, -4)
+[491, 192] (542, 188) (51, -4)
+[491, 192] (547, 189) (56, -3)
+[491, 192] (552, 189) (61, -3)
+[491, 192] (552, 184) (61, -8)
+[491, 192] (552, 178) (61, -14)
+[491, 192] (552, 172) (61, -20)
+[491, 192] (552, 168) (61, -24)
+[491, 192] (552, 163) (61, -29)
+[491, 192] (550, 157) (59, -35)
+[491, 192] (548, 153) (57, -39)
+[491, 192] (545, 147) (54, -45)
+[491, 192] (541, 142) (50, -50)
+[491, 192] (535, 137) (44, -55)
+[491, 192] (523, 134) (32, -58)
+[491, 192] (515, 132) (24, -60)
+[491, 192] (510, 131) (19, -61)
+[491, 192] (506, 131) (15, -61)
+[491, 192] (499, 131) (8, -61)
+[491, 192] (494, 131) (3, -61)
+[491, 192] (488, 131) (-3, -61)
+[491, 192] (482, 132) (-9, -60)
+[491, 192] (476, 134) (-15, -58)
+[491, 192] (470, 135) (-21, -57)
+[491, 192] (464, 139) (-27, -53)
+[491, 192] (457, 141) (-34, -51)
+[491, 192] (451, 147) (-40, -45)
+[491, 192] (446, 151) (-45, -41)
+[491, 192] (443, 156) (-48, -36)
+[491, 192] (440, 161) (-51, -31)
+[491, 192] (438, 166) (-53, -26)
+[491, 192] (438, 172) (-53, -20)
+[491, 192] (438, 176) (-53, -16)
+[491, 192] (442, 185) (-49, -7)
+[491, 192] (446, 191) (-45, -1)
+[491, 192] (450, 196) (-41, 4)
+[491, 192] (452, 200) (-39, 8)
+[491, 192] (455, 204) (-36, 12)
+[491, 192] (458, 209) (-33, 17)
+[491, 192] (462, 215) (-29, 23)
+[491, 192] (467, 220) (-24, 28)
+[491, 192] (472, 224) (-19, 32)
+[491, 192] (478, 227) (-13, 35)
+[491, 192] (484, 230) (-7, 38)
+[491, 192] (492, 231) (1, 39)
+[491, 192] (499, 231) (8, 39)
+[491, 192] (508, 231) (17, 39)
+[491, 192] (513, 231) (22, 39)
+[491, 192] (520, 231) (29, 39)
+[491, 192] (525, 229) (34, 37)
+[491, 192] (529, 227) (38, 35)
+[491, 192] (533, 226) (42, 34)
+[491, 192] (537, 222) (46, 30)
+[491, 192] (541, 219) (50, 27)
+[491, 192] (544, 216) (53, 24)
+[491, 192] (545, 212) (54, 20)
+[491, 192] (546, 208) (55, 16)
+[491, 192] (546, 204) (55, 12)
+
+from os import error
+import tkinter as tk
+from tkinter.constants import BOTH, E, END, LEFT, NO, RAISED, RIGHT, TOP, VERTICAL, X, Y, YES
+from tkinter.ttk import Entry, Frame, Button, Label, Scrollbar, Style, Treeview
+from PIL import Image, ImageTk
+from math import *
+from random import choice
+
+def getUnit(scale, standard=200):
+	exponent = floor(log10(standard/scale))
+	mantissa = (standard/scale)/(10**exponent)
+	if mantissa < 2:
+		return 1, exponent
+	elif mantissa < 5:
+		return 2, exponent
+	else:
+		return 5, exponent
+
+class Application(tk.Frame):
+	def __init__(self, master=None):
+		super().__init__(master)
+		self.master = master
+
+		master.geometry("1200x600")
+		master.title("PhongLuu Graph")
+		master.iconbitmap("image/icon.ico")
+
+		self.menubar = tk.Menu(self.master)
+		self.master.config(menu = self.menubar)
+		self.toolbar = Frame(self.master, relief=RAISED)
+		self.toolbar.pack(side=TOP, fill=X)
+		self.createMenu()
+	
+		mathStyle = Style()
+		mathStyle.configure("Treeview", font=('Cambria', 20), rowheight=40)
+		mathStyle.map('Treeview', background=[('selected', '#60a830')])
+
+		self.inputFrame = Frame(self.master)
+		self.inputFrame.pack(side=LEFT, fill=Y)
+
+		self.inputSb = Scrollbar(self.inputFrame)
+		self.inputSb.pack(side=RIGHT, fill=Y)
+
+		self.idRow = 0
+		self.inputTree = Treeview(self.inputFrame, show="tree", yscrollcommand=self.inputSb.set)
+		self.inputTree['column'] = ("Func", "idRow")
+		self.inputTree.column("#0", width=0, stretch=NO)
+		self.inputTree.column("Func", anchor="w", width=300)
+		self.inputTree.column("idRow")
+		self.inputTree["displaycolumns"] = ("Func")
+		self.inputTree.pack(side=LEFT, fill=Y)
+
+		self.inputSb.configure(command=self.inputTree.yview)
+		
+		self.inputTree.insert(parent='', index='end', values='sin(x)-4')
+		self.inputTree.insert(parent='', index='end', values='0.5*x**2')
+		self.inputTree.insert(parent='', index='end', values='x**3-2*x**2+1')
+
+		self.selected = None
+
+		self.colors = ('red', 'green', 'blue', 'cyan', 'magenta', 'yellow')
+		self.O_x = 300
+		self.O_y = 200
+		self.Scale = 50
+
+		self.movPos = None
+		self.countPos = 0
+
+		def checkFunc(func):
+			self.errorLabel['text'] = ''
+			if not func:
+				return 0
+			try:
+				x = 0
+				y = eval(func)
+			except ZeroDivisionError or ValueError:
+				return 1
+			except:
+				self.errorLabel['text'] = 'We dont\'t support this expression format'
+				return 0
+			return 1
+
+		def addFunc(event=None):
+			funcText = entry.get()
+			if not checkFunc(funcText):
+				return
+			self.inputTree.insert(parent='', index='end', values=entry.get())
+			entry.delete(0, END)
+
+		def deleteAll():
+			for func in self.inputTree.get_children():
+				self.inputTree.delete(func)
+			entry.delete(0, END)
+
+		def deleteOne(event=None):
+			if not self.selected:
+				return
+			self.inputTree.delete(self.selected)
+			self.selected = None
+			entry.delete(0, END)
+
+		def configFunc():
+			pass
+
+		def option():
+			pass
+
+		def select(event=None):
+			self.errorLabel['text'] = ''
+			entry.delete(0, END)
+			self.selected = self.inputTree.focus()
+			values = self.inputTree.item(self.selected, 'values')
+			entry.insert(0, values[0])
+
+		def update(event=None):
+			func = entry.get()
+			if not checkFunc(func):
+				return
+			if not self.selected:
+				return
+			self.inputTree.item(self.selected, values=entry.get())
+			self.selected = None
+			entry.delete(0, END)
+
+		def addNupdate(event=None):
+			if self.selected:
+				update(event)
+			else:
+				addFunc(event)
+
+		widel = Label(self.toolbar, text="", font=(None, 28))
+		widel.grid(row=0, column=0, padx=5)
+		
+		self.optnImg = ImageTk.PhotoImage(Image.open("image/option.png").resize((21, 21), Image.ANTIALIAS))
+		self.optnButton = Button(self.toolbar, image=self.optnImg, command=option)
+		self.optnButton.grid(row=0, column=1, padx=15, sticky=E)
+
+		self.setImg = ImageTk.PhotoImage(Image.open("image/setting.png").resize((21, 21), Image.ANTIALIAS))
+		self.setButton = Button(self.toolbar, image=self.setImg, command=configFunc)
+		self.setButton.grid(row=0, column=2, padx=5)
+
+		self.delImg = ImageTk.PhotoImage(Image.open("image/delete.png").resize((21, 21), Image.ANTIALIAS))
+		self.delButton = Button(self.toolbar, image=self.delImg, command=deleteOne)
+		self.delButton.grid(row=0, column=3, padx=5)
+
+		fxl = Label(self.toolbar, text="f =", font=("Cambria Italic", 16))
+		fxl.grid(row=0, column=4, padx=0)
+
+		entry = Entry(self.toolbar, font=('Cambria', 16), width=30)
+		entry.grid(row=0, column=5, padx=10)
+
+		self.doneImg = ImageTk.PhotoImage(Image.open("image/done.png").resize((21, 21), Image.ANTIALIAS))
+		self.doneButton = Button(self.toolbar, image=self.doneImg, command=addNupdate)
+		self.doneButton.grid(row=0, column=6, padx=5)
+
+		self.delAImg = ImageTk.PhotoImage(Image.open("image/delete_all.png").resize((21, 21), Image.ANTIALIAS))
+		self.delAButton = Button(self.toolbar, image=self.delAImg, command=deleteAll)
+		self.delAButton.grid(row=0, column=7, padx=5)
+
+		self.errorLabel = tk.Label(self.toolbar, text="", font=('None', 12), fg='red')
+		self.errorLabel.grid(row=0, column=8, padx=20)
+		
+
+		entry.bind('<Return>', addNupdate)
+		self.inputTree.bind('<Double-Button-1>', select)
+		self.inputTree.bind('<Return>', select)
+
+		# graW = tk.StringVar(str(self.master.winfo_width() - 340))
+		# graH = tk.StringVar(str(self.master.winfo_height() - 80))
+
+		self.graFrame = Frame(self.master)
+		self.graFrame.pack(fill=BOTH, expand=YES)
+
+		self.graCanvas = tk.Canvas(self.graFrame, bg="white")
+		self.graCanvas.pack(fill=BOTH, expand=YES)
+		self.graCanvas.delete("all")
+		self.drawAxis()
+		self.Plotting()
+		self.graCanvas.update()
+
+		self.graCanvas.bind('<MouseWheel>', self.wheelingMouse)
+		self.graCanvas.bind('<B1-Motion>', self.movingPressL)
+		self.graCanvas.bind('<ButtonRelease-1>', self.releasePress)
+		# for i in range(SCREEN_WIDTH//SCALE+1):
+		# 	my_canvas.create_line(ORIGIN_POS[0] % SCALE + SCALE*i, ORIGIN_POS[1]-5,
+		# 						ORIGIN_POS[0] % SCALE + SCALE*i, ORIGIN_POS[1]+5, fill='#009800', width=1)
+		# for i in range(SCREEN_HEIGHT//SCALE+1):
+		# 	my_canvas.create_line(ORIGIN_POS[0]-5, ORIGIN_POS[1] % SCALE + SCALE*i,
+		# 						ORIGIN_POS[0]+5, ORIGIN_POS[1] % SCALE + SCALE*i, fill='#009800', width=1)
+		# my_canvas.place(x=10, y=40)
+
+		self.pack()
+
+
+	def createMenu(self):
+		# main menu (empty)
+		mainMenu = tk.Menu(self.menubar)
+		self.menubar.add_cascade(label="Menu", menu=mainMenu)
+		# option menu (empty)
+		modeMenu = tk.Menu(self.menubar)
+
+	def drawAxis(self):
+		Unit = getUnit(self.Scale)
+
+		UnitPx = int(10**Unit[1]*Unit[0]*self.Scale)
+
+		# draw horizontal line and vertical line
+		if Unit[0] == 2:
+			for i in range(13):
+				y_mark = self.O_y % UnitPx + UnitPx*(i-1)
+				for j in range(1, 4):
+					self.graCanvas.create_line(0, y_mark + j*UnitPx//4,
+						1800, y_mark + j*UnitPx//4, fill='#f0f0f0', width=1)
+			for i in range(23):
+				x_mark = self.O_x % UnitPx + UnitPx*(i-1)
+				for j in range(1, 4):
+					self.graCanvas.create_line(x_mark + j*UnitPx//4, 0, 
+						x_mark + j*UnitPx//4, 1000, fill='#f0f0f0', width=2)
+		else:
+			for i in range(13):
+				y_mark = self.O_y % UnitPx + UnitPx*(i-1)
+				for j in range(1, 5):
+					self.graCanvas.create_line(0, y_mark + j*UnitPx//5,
+						1800, y_mark + j*UnitPx//5, fill='#f0f0f0', width=1)
+			for i in range(23):
+				x_mark = self.O_x % UnitPx + UnitPx*(i-1)
+				for j in range(1, 5):
+					self.graCanvas.create_line(x_mark + j*UnitPx//5, 0, 
+						x_mark + j*UnitPx//5, 1000, fill='#f0f0f0', width=2)
+
+		for i in range(23):
+			x_mark = self.O_x % UnitPx + UnitPx*i
+			self.graCanvas.create_line(x_mark, 0, x_mark, 1000, fill='#c8c8c8', width=2)
+			x_axis = round((i-self.O_x//UnitPx)*Unit[0]*10**Unit[1], 10)
+			if abs(x_axis) > 1E-9:
+				self.graCanvas.create_text(x_mark, self.O_y+10, font=('Calibri', 11), text=f'{x_axis}')
+			else:
+				self.graCanvas.create_text(x_mark-10, self.O_y+10, font=('Calibri', 11), text='0')				
+		for i in range(13):
+			y_mark = self.O_y % UnitPx + UnitPx*i
+			self.graCanvas.create_line(0, y_mark, 1800, y_mark, fill='#c8c8c8', width=2)
+			y_axis = round((self.O_y//UnitPx-i)*Unit[0]*10**Unit[1], 10)
+			if abs(y_axis) > 1E-9:
+				self.graCanvas.create_text(self.O_x-10, y_mark, font=('Calibri', 11), text=f'{y_axis}')
+
+
+		# draw axis
+		self.graCanvas.create_line(0, self.O_y, 1800, self.O_y, fill='black', width=2)
+		self.graCanvas.create_line(self.O_x, 0, self.O_x, 1000, fill='black', width=2)
+
+	def Plotting(self):
+		def drawFunc(f):
+			posXY = []
+			color = choice(self.colors)
+			for x_px in range(0, 1800, 10):
+				x = (x_px - self.O_x)/self.Scale
+				y = None
+				try:
+					y = eval(f)
+				except:
+					continue
+				y_px = -y*self.Scale + self.O_y
+				posXY.append((x_px, y_px))
+				if len(posXY) == 3:
+					posXY.pop(0)
+					self.graCanvas.create_line(posXY[0][0], posXY[0][1], posXY[1][0], posXY[1][1], fill=color, width=3)
+		# get functions
+		functions = []
+		for child in self.inputTree.get_children():
+			for f in self.inputTree.item(child)['values']:
+				functions.append(f)
+		for f in functions:
+			drawFunc(f)
+
+	def wheelingMouse(self, event=None):
+		newScale = self.Scale*(event.delta/600 + 1)
+		newScale = float('%.2g' % newScale)
+		if not 0.04 < newScale <= 200000:
+			return
+		self.Scale = newScale
+		self.graCanvas.delete("all")
+		self.drawAxis()
+		self.Plotting()
+		self.graCanvas.update()
+		
+	def movingPressL(self, event=None):
+		if not self.movPos:
+			self.movPos = event.x, event.y
+		if self.countPos == 4:
+			dx = event.x - self.movPos[0]
+			dy = event.y - self.movPos[1]
+
+			self.movPos = event.x, event.y
+
+			self.O_x += dx
+			self.O_y += dy
+			self.graCanvas.delete("all")
+			self.drawAxis()
+			self.Plotting()
+			self.graCanvas.update()
+
+			self.countPos = 0
+
+		self.countPos += 1
+	
+	def releasePress(self, event=None):
+		self.movPos = None
+
+
+root = tk.Tk()
+app = Application(master=root)
+app.mainloop()
+
+
